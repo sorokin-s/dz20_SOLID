@@ -13,7 +13,7 @@ public class SystemBookingManagement
     public SystemBookingManagement(Schedule schedule, ViewBookingSystem view) {
         this.schedule = schedule;
         this.view  = view;
-        addSeatsToTable(); // заполняем список свободных мест(билетов) на все рейсы
+        addSeatsToTable(); // заполняем список  мест(билетов) на все рейсы
         bookingSystemRun(); // метод взаимодействия с пользователями
 
     }
